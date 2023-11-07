@@ -1,0 +1,17 @@
+.carousel{
+    width: 100%;
+}
+
+.carousel-dark{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+@media only screen and (max-width: 800px) {
+    .topCon{
+        margin-top: -160px!important;
+    }
+    .imgCon img{
+        height: 250px;
+    }
+  }
