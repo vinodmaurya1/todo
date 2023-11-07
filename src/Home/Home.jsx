@@ -109,21 +109,6 @@ const Home = () => {
     setSetActive(status);
   };
 
-  // const handleActiveSet = (status) => {
-  //   setSetActive(status);
-  //   let updatedData;
-  //   if (status === "active") {
-  //     updatedData = userdata?.data?.filter((item) => item.active === "active");
-  //   } else if (status === "complete") {
-  //     updatedData = userdata?.data?.filter(
-  //       (item) => item.active === "complete"
-  //     );
-  //   } else {
-  //     updatedData = userdata;
-  //   }
-  //   setUserdata(updatedData);
-  // };
-
   useEffect(() => {
     handleActiveSet(setActive);
   }, [setActive]);
@@ -182,14 +167,6 @@ const Home = () => {
               )}
             </Box>
           </Box>
-          {/* <Box
-          sx={{
-            width: 500,
-            maxWidth: "100%",
-          }}
-         >
-          <TextField fullWidth label="fullWidth" id="fullWidth" />
-        </Box> */}
           <Box sx={{ display: "flex", flexDirection: "row" }}>
             <TextField
               name="text"
